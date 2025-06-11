@@ -81,7 +81,7 @@
        id="pulse"
        attributeName="opacity"
        values="0.3;0.8;0.3"
-       dur="3s"
+       dur="10s"
        repeatCount="indefinite" />
   </defs>
   <!-- Connection lines with gradient opacity -->
