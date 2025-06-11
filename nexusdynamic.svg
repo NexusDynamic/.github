@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="400"
+   height="400"
+   viewBox="0 0 400 400"
+   version="1.1"
+   id="svg15"
+   sodipodi:docname="nexusdynamic.svg"
+   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="2.08"
+     inkscape:cx="214.66346"
+     inkscape:cy="190.86539"
+     inkscape:window-width="2080"
+     inkscape:window-height="1237"
+     inkscape:window-x="2163"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg15" />
+  <!-- Background -->
+  <rect
+     width="400"
+     height="400"
+     fill="#0a0a0a"
+     rx="20"
+     id="rect1" />
+  <!-- Define gradients for visual interest -->
+  <defs
+     id="defs3">
+    <linearGradient
+       id="centralGradient"
+       x1="155.4"
+       y1="155.4"
+       x2="244.6"
+       y2="244.6"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         offset="0%"
+         style="stop-color:#4F46E5;stop-opacity:1"
+         id="stop1" />
+      <stop
+         offset="100%"
+         style="stop-color:#7C3AED;stop-opacity:1"
+         id="stop2" />
+    </linearGradient>
+    <!-- Glow effect for central node -->
+    <filter
+       id="glow"
+       x="-0.13714286"
+       y="-0.13714286"
+       width="1.2742857"
+       height="1.2742857">
+      <feGaussianBlur
+         stdDeviation="4"
+         result="coloredBlur"
+         id="feGaussianBlur2" />
+      <feMerge
+         id="feMerge3">
+        <feMergeNode
+           in="coloredBlur"
+           id="feMergeNode2" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode3" />
+      </feMerge>
+    </filter>
+    <!-- Pulse animation for connections -->
+    <animate
+       id="pulse"
+       attributeName="opacity"
+       values="0.3;0.8;0.3"
+       dur="3s"
+       repeatCount="indefinite" />
+  </defs>
+  <!-- Connection lines with gradient opacity -->
+  <!-- Top node connection -->
+  <line
+     x1="200"
+     y1="200"
+     x2="200"
+     y2="45.384617"
+     stroke="#4f46e5"
+     stroke-width="3"
+     opacity="0.6"
+     id="line3">
+    <animate
+       attributeName="stroke-width"
+       values="3;5;3"
+       dur="3s"
+       repeatCount="indefinite" />
+  </line>
+  <!-- Top-right node connection -->
+  <line
+     x1="200"
+     y1="200"
+     x2="328.84616"
+     y2="71.153847"
+     stroke="#06b6d4"
+     stroke-width="3"
+     opacity="0.6"
+     id="line4">
+    <animate
+       attributeName="stroke-width"
+       values="3;5;3"
+       dur="3s"
+       begin="0.4s"
+       repeatCount="indefinite" />
+  </line>
+  <!-- Right node connection -->
+  <line
+     x1="200"
+     y1="200"
+     x2="354.61539"
+     y2="200"
+     stroke="#10b981"
+     stroke-width="3"
+     opacity="0.6"
+     id="line5">
+    <animate
+       attributeName="stroke-width"
+       values="3;5;3"
+       dur="3s"
+       begin="0.8s"
+       repeatCount="indefinite" />
+  </line>
+  <!-- Bottom-right node connection -->
+  <line
+     x1="200"
+     y1="200"
+     x2="328.84616"
+     y2="328.84616"
+     stroke="#f59e0b"
+     stroke-width="3"
+     opacity="0.6"
+     id="line6">
+    <animate
+       attributeName="stroke-width"
+       values="3;5;3"
+       dur="3s"
+       begin="1.2s"
+       repeatCount="indefinite" />
+  </line>
+  <!-- Bottom node connection -->
+  <line
+     x1="200"
+     y1="200"
+     x2="200"
+     y2="354.61539"
+     stroke="#ef4444"
+     stroke-width="3"
+     opacity="0.6"
+     id="line7">
+    <animate
+       attributeName="stroke-width"
+       values="3;5;3"
+       dur="3s"
+       begin="1.6s"
+       repeatCount="indefinite" />
+  </line>
+  <!-- Bottom-left node connection -->
+  <line
+     x1="200"
+     y1="200"
+     x2="71.153847"
+     y2="328.84616"
+     stroke="#ec4899"
+     stroke-width="3"
+     opacity="0.6"
+     id="line8">
+    <animate
+       attributeName="stroke-width"
+       values="3;5;3"
+       dur="3s"
+       begin="2s"
+       repeatCount="indefinite" />
+  </line>
+  <!-- Left node connection -->
+  <line
+     x1="200"
+     y1="200"
+     x2="45.384617"
+     y2="200"
+     stroke="#8b5cf6"
+     stroke-width="3"
+     opacity="0.6"
+     id="line9">
+    <animate
+       attributeName="stroke-width"
+       values="3;5;3"
+       dur="3s"
+       begin="2.4s"
+       repeatCount="indefinite" />
+  </line>
+  <!-- Top-left node connection -->
+  <line
+     x1="200"
+     y1="200"
+     x2="71.153847"
+     y2="71.153847"
+     stroke="#3b82f6"
+     stroke-width="3"
+     opacity="0.6"
+     id="line10">
+    <animate
+       attributeName="stroke-width"
+       values="3;5;3"
+       dur="3s"
+       begin="2.8s"
+       repeatCount="indefinite" />
+  </line>
+  <!-- Peripheral nodes - different shapes for multimodality -->
+  <!-- Circle - Top -->
+  <circle
+     cx="200"
+     cy="45.384617"
+     r="25.76923"
+     fill="#4f46e5"
+     id="circle10"
+     style="stroke-width:1.28846" />
+  <!-- Square - Top-right -->
+  <rect
+     x="309.51923"
+     y="51.826923"
+     width="38.653847"
+     height="38.653847"
+     fill="#06b6d4"
+     rx="6.4423075"
+     id="rect10"
+     style="stroke-width:1.28846" />
+  <!-- Diamond - Right -->
+  <path
+     d="M 354.61538,180.67308 373.94231,200 354.61538,219.32692 335.28846,200 Z"
+     fill="#10b981"
+     id="path10"
+     style="stroke-width:1.28846" />
+  <!-- Triangle - Bottom-right -->
+  <path
+     d="m 343.41261,344.00229 -40.55159,-14.94046 28.17301,-26.4651 z"
+     fill="#f59e0b"
+     id="path11"
+     style="stroke-width:1.28846" />
+  <!-- Circle - Bottom -->
+  <circle
+     cx="200"
+     cy="354.61539"
+     r="25.76923"
+     fill="#ef4444"
+     id="circle11"
+     style="stroke-width:1.28846" />
+  <!-- Hexagon - Bottom-left -->
+  <path
+     d="m 71.153846,305.43084 20.463797,11.70767 v 23.41529 l -20.463797,11.70767 -20.4638,-11.70767 v -23.41529 z"
+     fill="#ec4899"
+     id="path12"
+     style="stroke-width:2.18899" />
+  <!-- Square - Left -->
+  <rect
+     x="26.057692"
+     y="180.67308"
+     width="38.653847"
+     height="38.653847"
+     fill="#8b5cf6"
+     rx="6.4423075"
+     id="rect12"
+     style="stroke-width:1.28846" />
+  <!-- Pentagon - Top-left -->
+  <path
+     d="M 67.437131,45.012943 90.754632,61.335194 83.759381,89.316206 H 51.114879 L 44.119628,61.335194 Z"
+     fill="#3b82f6"
+     id="path13"
+     style="stroke-width:2.33175" />
+  <!-- Central nexus node with gradient -->
+  <circle
+     cx="200"
+     cy="200"
+     r="35"
+     fill="url(#centralGradient)"
+     filter="url(#glow)"
+     id="circle13"
+     style="fill:url(#centralGradient)"
+     transform="matrix(1.2884615,0,0,1.2884615,-57.692308,-57.692308)">
+    <animate
+       attributeName="r"
+       values="35;38;35"
+       dur="2s"
+       repeatCount="indefinite" />
+  </circle>
+  <!-- Inner circle for depth -->
+  <circle
+     cx="200"
+     cy="200"
+     r="32.21154"
+     fill="none"
+     stroke="#ffffff"
+     stroke-width="2.57692"
+     opacity="0.3"
+     id="circle14" />
+  <!-- Center dot -->
+  <circle
+     cx="200"
+     cy="200"
+     r="10.307693"
+     fill="#ffffff"
+     opacity="0.9"
+     id="circle15"
+     style="stroke-width:1.28846" />
+</svg>
