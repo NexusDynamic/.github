@@ -98,7 +98,7 @@
     <animate
        attributeName="stroke-width"
        values="3;5;3"
-       dur="3s"
+       dur="10s"
        repeatCount="indefinite" />
   </line>
   <!-- Top-right node connection -->
@@ -131,7 +131,7 @@
     <animate
        attributeName="stroke-width"
        values="3;5;3"
-       dur="3s"
+       dur="10s"
        begin="0.8s"
        repeatCount="indefinite" />
   </line>
@@ -148,7 +148,7 @@
     <animate
        attributeName="stroke-width"
        values="3;5;3"
-       dur="3s"
+       dur="10s"
        begin="1.2s"
        repeatCount="indefinite" />
   </line>
@@ -165,7 +165,7 @@
     <animate
        attributeName="stroke-width"
        values="3;5;3"
-       dur="3s"
+       dur="10s"
        begin="1.6s"
        repeatCount="indefinite" />
   </line>
@@ -182,7 +182,7 @@
     <animate
        attributeName="stroke-width"
        values="3;5;3"
-       dur="3s"
+       dur="10s"
        begin="2s"
        repeatCount="indefinite" />
   </line>
@@ -199,7 +199,7 @@
     <animate
        attributeName="stroke-width"
        values="3;5;3"
-       dur="3s"
+       dur="10s"
        begin="2.4s"
        repeatCount="indefinite" />
   </line>
@@ -216,7 +216,7 @@
     <animate
        attributeName="stroke-width"
        values="3;5;3"
-       dur="3s"
+       dur="10s"
        begin="2.8s"
        repeatCount="indefinite" />
   </line>
@@ -294,7 +294,7 @@
     <animate
        attributeName="r"
        values="35;38;35"
-       dur="2s"
+       dur="7s"
        repeatCount="indefinite" />
   </circle>
   <!-- Inner circle for depth -->
