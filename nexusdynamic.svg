@@ -5,46 +5,26 @@
    viewBox="0 0 400 400"
    version="1.1"
    id="svg15"
-   sodipodi:docname="nexusdynamic.svg"
-   inkscape:version="1.4.2 (ebf0e940, 2025-05-08)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
-  <sodipodi:namedview
-     id="namedview15"
-     pagecolor="#505050"
-     bordercolor="#eeeeee"
-     borderopacity="1"
-     inkscape:showpageshadow="0"
-     inkscape:pageopacity="0"
-     inkscape:pagecheckerboard="0"
-     inkscape:deskcolor="#505050"
-     inkscape:zoom="2.08"
-     inkscape:cx="214.66346"
-     inkscape:cy="190.86539"
-     inkscape:window-width="2080"
-     inkscape:window-height="1237"
-     inkscape:window-x="2163"
-     inkscape:window-y="25"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg15" />
   <!-- Background -->
   <rect
      width="400"
      height="400"
      fill="#0a0a0a"
      rx="20"
-     id="rect1" />
+     id="rect1"
+     x="0"
+     y="0" />
   <!-- Define gradients for visual interest -->
   <defs
      id="defs3">
     <linearGradient
        id="centralGradient"
-       x1="155.4"
-       y1="155.4"
-       x2="244.6"
-       y2="244.6"
+       x1="155.39999"
+       y1="155.39999"
+       x2="244.60001"
+       y2="244.60001"
        gradientUnits="userSpaceOnUse">
       <stop
          offset="0%"
@@ -97,7 +77,13 @@
      id="line3">
     <animate
        attributeName="stroke-width"
-       values="3;5;3"
+       values="3;3;8;3;3"
+       dur="10s"
+       keyTimes="0;0;0.025;0.05;1"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="opacity"
+       values="0.3;0.8;0.3"
        dur="10s"
        repeatCount="indefinite" />
   </line>
@@ -113,9 +99,14 @@
      id="line4">
     <animate
        attributeName="stroke-width"
-       values="3;5;3"
-       dur="3s"
-       begin="0.4s"
+       values="3;3;8;3;3"
+       dur="10s"
+       keyTimes="0;0.025;0.05;0.075;1"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="opacity"
+       values="0.3;0.8;0.3"
+       dur="10s"
        repeatCount="indefinite" />
   </line>
   <!-- Right node connection -->
@@ -130,9 +121,14 @@
      id="line5">
     <animate
        attributeName="stroke-width"
-       values="3;5;3"
+       values="3;3;8;3;3"
        dur="10s"
-       begin="0.8s"
+       keyTimes="0;0.05;0.075;0.1;1"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="opacity"
+       values="0.3;0.8;0.3"
+       dur="10s"
        repeatCount="indefinite" />
   </line>
   <!-- Bottom-right node connection -->
@@ -147,9 +143,14 @@
      id="line6">
     <animate
        attributeName="stroke-width"
-       values="3;5;3"
+       values="3;3;8;3;3"
        dur="10s"
-       begin="1.2s"
+       keyTimes="0;0.075;0.1;0.125;1"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="opacity"
+       values="0.3;0.8;0.3"
+       dur="10s"
        repeatCount="indefinite" />
   </line>
   <!-- Bottom node connection -->
@@ -164,9 +165,14 @@
      id="line7">
     <animate
        attributeName="stroke-width"
-       values="3;5;3"
+       values="3;3;8;3;3"
        dur="10s"
-       begin="1.6s"
+       keyTimes="0;0.1;0.125;0.15;1"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="opacity"
+       values="0.3;0.8;0.3"
+       dur="10s"
        repeatCount="indefinite" />
   </line>
   <!-- Bottom-left node connection -->
@@ -181,9 +187,14 @@
      id="line8">
     <animate
        attributeName="stroke-width"
-       values="3;5;3"
+       values="3;3;8;3;3"
        dur="10s"
-       begin="2s"
+       keyTimes="0;0.125;0.15;0.175;1"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="opacity"
+       values="0.3;0.8;0.3"
+       dur="10s"
        repeatCount="indefinite" />
   </line>
   <!-- Left node connection -->
@@ -198,9 +209,14 @@
      id="line9">
     <animate
        attributeName="stroke-width"
-       values="3;5;3"
+       values="3;3;8;3;3"
        dur="10s"
-       begin="2.4s"
+       keyTimes="0;0.15;0.175;0.2;1"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="opacity"
+       values="0.3;0.8;0.3"
+       dur="10s"
        repeatCount="indefinite" />
   </line>
   <!-- Top-left node connection -->
@@ -215,72 +231,77 @@
      id="line10">
     <animate
        attributeName="stroke-width"
-       values="3;5;3"
+       values="3;3;8;3;3"
        dur="10s"
-       begin="2.8s"
+       keyTimes="0;0.175;0.2;0.225;1"
+       repeatCount="indefinite" />
+    <animate
+       attributeName="opacity"
+       values="0.3;0.8;0.3"
+       dur="10s"
        repeatCount="indefinite" />
   </line>
   <!-- Peripheral nodes - different shapes for multimodality -->
   <!-- Circle - Top -->
   <circle
-     cx="200"
-     cy="45.384617"
-     r="25.76923"
+     cx="200.48077"
+     cy="50.19231"
      fill="#4f46e5"
      id="circle10"
-     style="stroke-width:1.28846" />
+     style="stroke-width:1.28846"
+     r="25" />
   <!-- Square - Top-right -->
   <rect
-     x="309.51923"
-     y="51.826923"
-     width="38.653847"
-     height="38.653847"
+     x="299.90384"
+     y="50.865383"
+     width="50"
+     height="50"
      fill="#06b6d4"
-     rx="6.4423075"
+     rx="6.4419999"
      id="rect10"
      style="stroke-width:1.28846" />
   <!-- Diamond - Right -->
   <path
-     d="M 354.61538,180.67308 373.94231,200 354.61538,219.32692 335.28846,200 Z"
+     d="m 350.28846,173.94231 25.09616,25.09615 -25.09616,25.09614 -25.09615,-25.09614 z"
      fill="#10b981"
      id="path10"
-     style="stroke-width:1.28846" />
+     style="stroke-width:1.67307" />
   <!-- Triangle - Bottom-right -->
   <path
-     d="m 343.41261,344.00229 -40.55159,-14.94046 28.17301,-26.4651 z"
+     d="m 350.14338,350.4244 -48.72467,-17.95167 33.85121,-31.79908 z"
      fill="#f59e0b"
      id="path11"
-     style="stroke-width:1.28846" />
+     style="stroke-width:1.54815" />
   <!-- Circle - Bottom -->
   <circle
-     cx="200"
-     cy="354.61539"
-     r="25.76923"
+     cx="200.48077"
+     cy="349.80771"
      fill="#ef4444"
      id="circle11"
-     style="stroke-width:1.28846" />
+     style="stroke-width:1.28846"
+     r="25" />
   <!-- Hexagon - Bottom-left -->
   <path
-     d="m 71.153846,305.43084 20.463797,11.70767 v 23.41529 l -20.463797,11.70767 -20.4638,-11.70767 v -23.41529 z"
+     d="m 75.480769,300.14239 25.271491,12.54901 v 25.09798 L 75.480769,350.3384 50.209279,337.78938 V 312.6914 Z"
      fill="#ec4899"
      id="path12"
-     style="stroke-width:2.18899" />
+     style="stroke-width:2.51847" />
   <!-- Square - Left -->
   <rect
-     x="26.057692"
-     y="180.67308"
-     width="38.653847"
-     height="38.653847"
+     x="25.096151"
+     y="175.86539"
+     width="50"
+     height="50"
      fill="#8b5cf6"
-     rx="6.4423075"
+     rx="6.4419999"
      id="rect12"
      style="stroke-width:1.28846" />
   <!-- Pentagon - Top-left -->
   <path
-     d="M 67.437131,45.012943 90.754632,61.335194 83.759381,89.316206 H 51.114879 L 44.119628,61.335194 Z"
+     d="m 75.36983,50.782178 25.00018,18.34148 -7.50005,31.442542 H 57.86968 L 50.36963,69.123658 Z"
      fill="#3b82f6"
      id="path13"
-     style="stroke-width:2.33175" />
+     style="stroke-width:2.55941" />
   <!-- Central nexus node with gradient -->
   <circle
      cx="200"
@@ -294,7 +315,7 @@
     <animate
        attributeName="r"
        values="35;38;35"
-       dur="7s"
+       dur="10s"
        repeatCount="indefinite" />
   </circle>
   <!-- Inner circle for depth -->
