@@ -4,7 +4,7 @@
 <table vspace="50" style="width: 100%; border: none;" cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td colspan="2" valign="middle">
-      <img align="left" src="../nexusdynamic.svg" title="NexusDynamic" alt="NexusDynamic logo showing a central slowly pulsing circular node with spokes connecting to surrounding nodes that have different shapes (circles, squares, triangles, hexagon, etc)" width="380" height="380" />
+      <p align="center"><img src="../nexusdynamic.svg" title="NexusDynamic" alt="NexusDynamic logo showing a central slowly pulsing circular node with spokes connecting to surrounding nodes that have different shapes (circles, squares, triangles, hexagon, etc)" width="580" height="580" /></p>
       <div id="toc"> <!-- both work, toc or user-content-toc -->
       <ul style="list-style: none;">
         <summary>
