@@ -1,25 +1,31 @@
 # NexusDynamic
 
-<p align="center">
-  <img src="../nexusdynamic.svg" title="NexusDynamic" alt="NexusDynamic logo showing a central slowly pulsing circular node with spokes connecting to surrounding nodes that have different shapes (circles, squares, triangles, hexagon, etc)" />
-</p>
 
-**Multimodal group social dynamics research for everyone**
-
-
-For a quick overview, take a look at the [poster presented at the JAM 2025 conference](https://github.com/NexusDynamic/.github/blob/main/profile/FINAL-Coop_comp_paradigm-A0Poster_reduced.pdf)
-<p align="center">
-  <a href="https://github.com/NexusDynamic/.github/blob/main/profile/FINAL-Coop_comp_paradigm-A0Poster_reduced.pdf">
-    <img width="208" height="293" alt="Preview image of the conference poster for the framework and paradigm" src="https://github.com/user-attachments/assets/130362be-863d-4655-b559-7cd3ddad833f" />
-  </a>
-</p>
+<table vspace="50" style="width: 100%; border: none;" cellspacing="0" cellpadding="0" border="0">
+  <tr>
+    <td><strong>Multimodal group social dynamics research for everyone</strong>
+      <br/><br/>
+This project and collection of packages has the goal of creating a group-first, cross-platform suite of tools that make it easy to start collecting behavioural, EEG, MoCap or any other data source that either already has an integration with [Lab Streaming Layer](https://labstreaminglayer.org/), or, any kind of API for consuming data, which can then be collected or forwarded on as an LSL stream.</td>
+    <td width="50%"><img align="left" src="../nexusdynamic.svg" title="NexusDynamic" alt="NexusDynamic logo showing a central slowly pulsing circular node with spokes connecting to surrounding nodes that have different shapes (circles, squares, triangles, hexagon, etc)" width="400" height="400" hspace="20" /></td>
+</table>
 
 
-This project has the goal of creating a group-first, cross-platform suite of tools that make it easy to start collecting behavioural, EEG, MoCap or any other data source that either already has an integration with Lab Streaming Layer, or, any kind of API for consuming data, which can then be collected or forwarded on as an LSL stream.
+
+<a href="https://github.com/NexusDynamic/.github/blob/main/profile/FINAL-Coop_comp_paradigm-A0Poster_reduced.pdf">
+  <img width="208" height="293" alt="Preview image of the conference poster for the framework and paradigm" src="https://github.com/user-attachments/assets/130362be-863d-4655-b559-7cd3ddad833f" align="right" />
+</a>
+
+<br/><br/>
+
+> [!TIP]
+> For a quick overview, see the <a href="https://github.com/NexusDynamic/.github/blob/main/profile/FINAL-Coop_comp_paradigm-A0Poster_reduced.pdf">poster</a>
+
 
 **Does this already sound too complicated?**
 
 Don't worry, it is still early days, but already some basic functionality, such as validating latency and timing in your lab, is already as simple as running an app on whatever devices you plan to use in research.
+
+<br/><br/><br/>
 
 ## Project Components
 
