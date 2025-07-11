@@ -5,7 +5,7 @@
   <tr>
     <td colspan="2" valign="middle">
       <img align="left" src="../nexusdynamic.svg" title="NexusDynamic" alt="NexusDynamic logo showing a central slowly pulsing circular node with spokes connecting to surrounding nodes that have different shapes (circles, squares, triangles, hexagon, etc)" width="400" height="400" />
-      <p><strong><em>Multimodal group social dynamics research for everyone</em></strong></p>
+      <h2><strong>Multimodal group social dynamics research</strong> 🌍 🌟<br/><em>for everyone </em></h2>
       <p>This project and collection of packages has the goal of creating a group-first, cross-platform suite of tools that make it easy to start collecting behavioural, EEG, MoCap or any other data source that either already has an integration with [Lab Streaming Layer](https://labstreaminglayer.org/), or, any kind of API for consuming data, which can then be collected or forwarded on as an LSL stream.</p>
   </td>
 </table>
@@ -22,7 +22,7 @@
 > For a quick overview, see the <a href="https://github.com/NexusDynamic/.github/blob/main/profile/FINAL-Coop_comp_paradigm-A0Poster_reduced.pdf">poster &mdash;&mdash;&gt;</a>
 
 > [!NOTE]
-> **Does this already sound too complicated?**
+> **Does this already sound too complicated?** 🥴
 > 
 > Don't worry, it is still early days, but already some basic functionality, such as validating latency and timing in your lab, is already as simple as running an app on whatever devices you plan to use in research.
 
@@ -30,19 +30,19 @@
 
 ## Project Components
 
-### Core
+### Core 🍎
 
 The core of this project is the [Dart native liblsl wrapper](https://github.com/NexusDynamic/liblsl.dart/tree/main/packages/liblsl) which makes LSL integration into your project a breeze.
 
 This already supports Android, iOS, Linux, MacOS and Windows.
 
-#### Device Specific Libraries
+#### Device Specific Libraries 📱
 
 While it's pretty easy to get the liblsl dart native library working in most environments, sometimes a little extra effort is required, and as such, there is a liblsl [pre-compiled build for the Bela](https://github.com/NexusDynamic/Bela-liblsl) (Beaglebone black) availabe
 
 ### Add-on Packages
 
-#### Timing and Latency Analysis
+#### Timing and Latency Analysis 🕦
 
 
 - [liblsl_timing](https://github.com/NexusDynamic/liblsl.dart/tree/main/packages/liblsl_timing): App based multi-device latency, sync and interactive timing tests with automatic device coordination via LSL
@@ -51,7 +51,7 @@ While it's pretty easy to get the liblsl dart native library working in most env
 If you have a [Bela](https://bela.io/),  [code is available](https://github.com/NexusDynamic/bela-lsl-timing) to validate the end-to-end latency of devices using photodiodes and FSR sensors.
 
 
-## Experimental Paradigm for Simultaneous Cooperation and Competition
+## Experimental Paradigm for Simultaneous Cooperation and Competition 🤝
 
 [RiseTogether](https://github.com/NexusDynamic/RiseTogether) is a novel videogame style paradigm for investigating simultaneous collaboration and competition in groups. It is flexible allowing for varying group sizes, and is built around the dart liblsl framework for automatically coordinating and configuring the experiment in different labs, on different devices, with different numbers of participants. For more info see the repository or the poster linked above.
 
