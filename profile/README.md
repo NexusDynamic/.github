@@ -49,7 +49,7 @@ While it's pretty easy to get the liblsl dart native library working in most env
 
 #### Timing and Latency Analysis 🕦
 
-
+- **liblsl_coordinator** currently work in progress tool to automatically coordinate, control and set up communication between all the devices involved in your experiment
 - [liblsl_timing](https://github.com/NexusDynamic/liblsl.dart/tree/main/packages/liblsl_timing): App based multi-device latency, sync and interactive timing tests with automatic device coordination via LSL
 - [liblsl_analysis](https://github.com/NexusDynamic/liblsl.dart/tree/main/packages/liblsl_analysis): Analysis of results from the timing tests in [liblsl_timing](https://github.com/NexusDynamic/liblsl.dart/tree/main/packages/liblsl_timing)
 
