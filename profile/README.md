@@ -4,13 +4,13 @@
 <table vspace="50" style="width: 100%; border: none;" cellspacing="0" cellpadding="0" border="0">
   <tr>
     <td colspan="2" valign="middle">
-      <img align="left" src="../nexusdynamic.svg" title="NexusDynamic" alt="NexusDynamic logo showing a central slowly pulsing circular node with spokes connecting to surrounding nodes that have different shapes (circles, squares, triangles, hexagon, etc)" width="400" height="400" />
+      <img align="left" src="../nexusdynamic.svg" title="NexusDynamic" alt="NexusDynamic logo showing a central slowly pulsing circular node with spokes connecting to surrounding nodes that have different shapes (circles, squares, triangles, hexagon, etc)" width="380" height="380" />
       <div id="toc"> <!-- both work, toc or user-content-toc -->
-  <ul style="list-style: none;">
-    <summary>
-      <h2><strong>Multimodal group social dynamics research</strong> 🌍 🌟<br/><em>for everyone </em></h2>
-    </summary>
-  </ul>
+      <ul style="list-style: none;">
+        <summary>
+          <h2><strong>Multimodal group social dynamics research</strong> 🌍 🌟<br/><em>for everyone </em></h2>
+        </summary>
+      </ul>
       <p>This project and collection of packages has the goal of creating a group-first, cross-platform suite of tools that make it easy to start collecting behavioural, EEG, MoCap or any other data source that either already has an integration with <a href="https://labstreaminglayer.org/">Lab Streaming Layer</a>, or, any kind of API for consuming data, which can then be collected or forwarded on as an LSL stream.</p>
   </td>
 </table>
