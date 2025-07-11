@@ -3,10 +3,11 @@
 
 <table vspace="50" style="width: 100%; border: none;" cellspacing="0" cellpadding="0" border="0">
   <tr>
-    <td valign="middle"><p><strong><em>Multimodal group social dynamics research for everyone</em></strong></p>
-
-<p>This project and collection of packages has the goal of creating a group-first, cross-platform suite of tools that make it easy to start collecting behavioural, EEG, MoCap or any other data source that either already has an integration with [Lab Streaming Layer](https://labstreaminglayer.org/), or, any kind of API for consuming data, which can then be collected or forwarded on as an LSL stream.</p></td>
-    <td width="50%" align="right" valign="middle"><img  src="../nexusdynamic.svg" title="NexusDynamic" alt="NexusDynamic logo showing a central slowly pulsing circular node with spokes connecting to surrounding nodes that have different shapes (circles, squares, triangles, hexagon, etc)" width="400" height="400" /></td>
+    <td colspan="2" valign="middle">
+      <img align="left" src="../nexusdynamic.svg" title="NexusDynamic" alt="NexusDynamic logo showing a central slowly pulsing circular node with spokes connecting to surrounding nodes that have different shapes (circles, squares, triangles, hexagon, etc)" width="400" height="400" />
+      <p><strong><em>Multimodal group social dynamics research for everyone</em></strong></p>
+      <p>This project and collection of packages has the goal of creating a group-first, cross-platform suite of tools that make it easy to start collecting behavioural, EEG, MoCap or any other data source that either already has an integration with [Lab Streaming Layer](https://labstreaminglayer.org/), or, any kind of API for consuming data, which can then be collected or forwarded on as an LSL stream.</p>
+  </td>
 </table>
 
 
@@ -18,12 +19,12 @@
 <br/><br/>
 
 > [!TIP]
-> For a quick overview, see the <a href="https://github.com/NexusDynamic/.github/blob/main/profile/FINAL-Coop_comp_paradigm-A0Poster_reduced.pdf">poster</a>
+> For a quick overview, see the <a href="https://github.com/NexusDynamic/.github/blob/main/profile/FINAL-Coop_comp_paradigm-A0Poster_reduced.pdf">poster &mdash;&mdash;&gt;</a>
 
-
-**Does this already sound too complicated?**
-
-Don't worry, it is still early days, but already some basic functionality, such as validating latency and timing in your lab, is already as simple as running an app on whatever devices you plan to use in research.
+> [!NOTE]
+> **Does this already sound too complicated?**
+> 
+> Don't worry, it is still early days, but already some basic functionality, such as validating latency and timing in your lab, is already as simple as running an app on whatever devices you plan to use in research.
 
 <br/><br/><br/>
 
