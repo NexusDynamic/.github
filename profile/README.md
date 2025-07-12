@@ -8,7 +8,7 @@
       <div id="toc"> <!-- both work, toc or user-content-toc -->
       <ul style="list-style: none;">
         <summary>
-          <h2><strong>Multimodal group social dynamics research</strong> 🌍 🌟<br/><em>for everyone </em></h2>
+          <h2><strong>Multimodal group social dynamics research</strong> 🌍 🌟<br/><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&mdash; for everyone </em></h2>
         </summary>
       </ul>
       <p>This project and collection of packages has the goal of creating a group-first, cross-platform suite of tools that make it easy to start collecting behavioural, EEG, MoCap or any other data source that either already has an integration with <a href="https://labstreaminglayer.org/">Lab Streaming Layer</a>, or, any kind of API for consuming data, which can then be collected or forwarded on as an LSL stream.</p>
