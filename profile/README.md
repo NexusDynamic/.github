@@ -64,5 +64,6 @@ If you have a [Bela](https://bela.io/),  [code is available](https://github.com/
 
 Some useful packages have been developed for Flutter and Dart development which may be useful more generally beyond group research projects and can be added to apps by developers, these are:
 
-- [flutter_multicast_lock](https://pub.dev/packages/flutter_multicast_lock) [source](https://github.com/NexusDynamic/flutter_multicast_lock), a package to acquire multicast locks on Android (but won't break on other platforms)
-- [flutter_refresh_rate_control](https://pub.dev/packages/flutter_refresh_rate_control) [source](https://github.com/NexusDynamic/flutter_refresh_rate_control), a package that helps attempt to make android and iOS devices use the highest refresh rate possible for their screen (e.g. ProMotion) and tries to disable Android's Adaptive Refresh Rate (ARR)
+- [flutter_multicast_lock](https://pub.dev/packages/flutter_multicast_lock) ([source](https://github.com/NexusDynamic/flutter_multicast_lock)), a package to acquire multicast locks on Android (but won't break on other platforms)
+- [flutter_refresh_rate_control](https://pub.dev/packages/flutter_refresh_rate_control) ([source](https://github.com/NexusDynamic/flutter_refresh_rate_control)), a package that helps attempt to make android and iOS devices use the highest refresh rate possible for their screen (e.g. ProMotion) and tries to disable Android's Adaptive Refresh Rate (ARR)
+- [easy_shared_preferences](https://pub.dev/packages/easy_shared_preferences) ([source](https://github.com/NexusDynamic/easy_shared_preferences)), a package that wraps [shared_preferences](https://pub.dev/packages/shared_preferences) to make managing your flutter app settings easier and modular
