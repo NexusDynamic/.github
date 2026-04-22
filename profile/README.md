@@ -21,7 +21,7 @@
   <img width="208" height="293" alt="Preview image of the conference poster for the framework and paradigm" src="https://github.com/user-attachments/assets/130362be-863d-4655-b559-7cd3ddad833f" align="right" />
 </a>
 
-<br/><br/>
+<br/>
 
 > [!TIP]
 > For a quick overview, see the <a href="https://github.com/NexusDynamic/.github/blob/main/profile/FINAL-Coop_comp_paradigm-A0Poster_reduced.pdf">poster &mdash;&mdash;&gt;</a>
@@ -30,6 +30,7 @@
 > **Does this already sound too complicated?** 🥴
 > 
 > Don't worry, it is still early days, but already some basic functionality, such as validating latency and timing in your lab, is already as simple as running an app on whatever devices you plan to use in research.
+> Get in touch: [![Matrix chat room](https://img.shields.io/matrix/NexusDynamic%3Aneuro.wang?server_fqdn=matrix.neuro.wang&fetchMode=summary&logo=matrix&label=Matrix%20Chat%20Room)](https://matrix.to/#/#NexusDynamic:neuro.wang)
 
 <br/><br/><br/>
 
